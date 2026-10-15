@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { MessageCircle, X } from 'lucide-react';
 
 export const FloatingWhatsApp = ({
-  phoneNumber = '919512348787',
-  customMessage = 'Hello La Posh, I would like to enquire about appointments and services in Rajkot.',
+  phoneNumber = '919812362083',
+  customMessage = 'Hello Khan Hair Xpenso, I would like to enquire about appointments and services in Kurukshetra.',
 }) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -24,11 +24,11 @@ export const FloatingWhatsApp = ({
           </button>
           <div className="flex items-center gap-3 mb-2">
             <div className="w-9 h-9 rounded-full bg-emerald-500 flex items-center justify-center text-white font-bold text-sm">
-              LP
+              KX
             </div>
             <div>
-              <h5 className="font-semibold text-xs text-laposh-text">La Posh Studio & Academy</h5>
-              <p className="text-[10px] text-emerald-600 font-medium">● Online | Kalavad Road, Rajkot</p>
+              <h5 className="font-semibold text-xs text-laposh-text">Khan Hair Xpenso</h5>
+              <p className="text-[10px] text-emerald-600 font-medium">● Online | Sector 17, Kurukshetra</p>
             </div>
           </div>
           <p className="text-xs text-laposh-muted mb-3 bg-laposh-warm p-2.5 rounded-xl border border-laposh-border/60">
@@ -51,7 +51,7 @@ export const FloatingWhatsApp = ({
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="w-14 h-14 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white shadow-luxury hover:shadow-xl flex items-center justify-center transition-all duration-300 transform group-hover:scale-105 focus:outline-none"
-          aria-label="Contact La Posh on WhatsApp"
+          aria-label="Contact Khan Hair Xpenso on WhatsApp"
         >
           <MessageCircle className="w-7 h-7" />
           {/* Notification Ping */}

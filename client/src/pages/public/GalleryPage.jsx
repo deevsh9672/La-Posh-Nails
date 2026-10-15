@@ -46,8 +46,8 @@ export const GalleryPage = () => {
   return (
     <div className="py-12 sm:py-16">
       <SEOHead
-        title="Nail Art & Salon Gallery | La Posh Rajkot"
-        description="Browse our portfolio of French tips, mirror chrome nails, bridal nail art, acrylic extensions, and hairstyles created in Rajkot."
+        title="Beauty & Salon Gallery | Khan Hair Xpenso Kurukshetra"
+        description="Browse our portfolio of haircut styles, hair spa transformations, French tips, mirror chrome nails, bridal nail art, and hairstyles created at Khan Hair Xpenso in Kurukshetra."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -60,7 +60,7 @@ export const GalleryPage = () => {
             Our Work & Client Gallery
           </h1>
           <p className="text-xs sm:text-sm text-laposh-muted mt-2">
-            Explore authentic transformations from our Kalavad Road studio. Filter by your favorite aesthetic and save references for your next visit.
+            Explore authentic transformations from our Sector 17 salon in Kurukshetra. Filter by your favorite aesthetic and save references for your next visit.
           </p>
         </div>
 

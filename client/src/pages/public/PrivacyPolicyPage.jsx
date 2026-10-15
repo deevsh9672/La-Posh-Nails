@@ -5,8 +5,8 @@ export const PrivacyPolicyPage = () => {
   return (
     <div className="py-12 sm:py-16">
       <SEOHead
-        title="Privacy Policy | La Posh Nails Studio & Academy"
-        description="Privacy policy and data protection standards for clients of La Posh Nails Studio & Academy in Rajkot."
+        title="Privacy Policy | Khan Hair Xpenso - The Beauty Salon & Training"
+        description="Privacy policy and data protection standards for clients of Khan Hair Xpenso in Kurukshetra, Haryana."
       />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -19,7 +19,7 @@ export const PrivacyPolicyPage = () => {
           <section className="space-y-2">
             <h2 className="font-serif text-base font-bold text-laposh-text">1. Information We Collect</h2>
             <p>
-              When you book an appointment or submit an academy course enquiry with <strong>La Posh Nails Studio & Makeup Hairstyles Academy</strong>, we collect your name, mobile phone number, email address, preferred appointment time, and service preferences.
+              When you book an appointment or submit a training course enquiry with <strong>Khan Hair Xpenso - The Beauty Salon & Training</strong>, we collect your name, mobile phone number, email address, preferred appointment time, and service preferences.
             </p>
           </section>
 
@@ -33,14 +33,14 @@ export const PrivacyPolicyPage = () => {
           <section className="space-y-2">
             <h2 className="font-serif text-base font-bold text-laposh-text">3. WhatsApp Communications</h2>
             <p>
-              By submitting your phone number on our booking or academy enquiry forms, you authorize La Posh to send appointment confirmation details and customer service messages via WhatsApp or SMS.
+              By submitting your phone number on our booking or academy enquiry forms, you authorize Khan Hair Xpenso to send appointment confirmation details and customer service messages via WhatsApp or SMS.
             </p>
           </section>
 
           <section className="space-y-2">
             <h2 className="font-serif text-base font-bold text-laposh-text">4. Contact & Inquiries</h2>
             <p>
-              For privacy-related questions or to request deletion of your booking history, please contact our salon desk at 102 Pride Corporate, Kalavad Road, Rajkot or via phone at +91 95123 48787.
+              For privacy-related questions or to request deletion of your booking history, please contact our salon desk at SCO-55, 56, Kessal Mall, Sector 17, Kurukshetra, Haryana 136118 or via phone at +91 98123 62083.
             </p>
           </section>
         </div>

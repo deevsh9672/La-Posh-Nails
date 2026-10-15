@@ -55,7 +55,7 @@ export const AdminLayout = () => {
           >
             {sidebarOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
-          <span className="font-serif text-lg font-bold text-laposh-text">La Posh Admin</span>
+          <span className="font-serif text-lg font-bold text-laposh-text">Khan Hair Xpenso</span>
         </div>
         <button
           onClick={logout}
@@ -77,7 +77,7 @@ export const AdminLayout = () => {
           <div className="p-6 border-b border-gray-100">
             <Link to="/" target="_blank" className="block group">
               <span className="font-serif text-2xl font-bold text-laposh-text group-hover:text-laposh-gold transition-colors">
-                La Posh
+                Khan Hair Xpenso
               </span>
               <span className="block text-[10px] tracking-wider uppercase font-semibold text-laposh-gold">
                 Admin Management Portal
@@ -149,7 +149,7 @@ export const AdminLayout = () => {
           <div className="flex items-center gap-2">
             <ShieldCheck className="w-5 h-5 text-laposh-gold" />
             <span className="text-xs font-semibold text-gray-500 uppercase tracking-wider">
-              Studio Management Dashboard • Rajkot
+              Salon Management Dashboard • Kurukshetra
             </span>
           </div>
 

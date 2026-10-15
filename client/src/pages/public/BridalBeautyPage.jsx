@@ -7,8 +7,8 @@ export const BridalBeautyPage = () => {
   return (
     <div className="py-12 sm:py-16">
       <SEOHead
-        title="Luxury Bridal Makeup & Wedding Packages | La Posh Rajkot"
-        description="Exclusive bridal beauty packages in Rajkot: Royal HD makeup, Swarovski bridal nail extensions, intricate hair styling, and couture lehenga draping."
+        title="Luxury Bridal Makeup & Wedding Packages | Khan Hair Xpenso Kurukshetra"
+        description="Exclusive bridal beauty packages in Kurukshetra: Royal HD makeup, Swarovski bridal nail extensions, intricate hair styling, and couture dupatta draping."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -24,7 +24,7 @@ export const BridalBeautyPage = () => {
                 Your Dream Bridal Transformation Awaits.
               </h1>
               <p className="text-xs sm:text-sm text-laposh-muted leading-relaxed">
-                Your wedding day is one of the most treasured milestones of your life. At La Posh in Rajkot, we craft ethereal bridal looks that harmonize traditional Gujarati heritage with modern haute couture refinement.
+                Your wedding day is one of the most treasured milestones of your life. At Khan Hair Xpenso in Kurukshetra, we craft ethereal bridal looks that harmonize traditional heritage with modern haute couture refinement.
               </p>
 
               <div className="space-y-2.5 pt-2 text-xs">
@@ -32,7 +32,7 @@ export const BridalBeautyPage = () => {
                   'Bespoke Bridal Nail Extension Set with customized wedding motif',
                   'Waterproof, tear-proof HD airbrush makeup for high-res photography',
                   'Ornate bridal hairstyles, fresh flower setting & mathapatti fixing',
-                  'Couture lehenga & dupatta draping (Gujarati, Royal Rajasthani, Classic)',
+                  'Couture lehenga & dupatta draping (North Indian, Royal Rajasthani, Classic)',
                   'Pre-bridal skin glow consultation & trial session',
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-center gap-2">
@@ -52,8 +52,8 @@ export const BridalBeautyPage = () => {
                 </Link>
 
                 <a
-                  href={`https://wa.me/919512348787?text=${encodeURIComponent(
-                    'Hello La Posh, I want to enquire about Bridal Packages and availability for my wedding date.'
+                  href={`https://wa.me/919812362083?text=${encodeURIComponent(
+                    'Hello Khan Hair Xpenso, I want to enquire about Bridal Packages and availability for my wedding date.'
                   )}`}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -68,7 +68,7 @@ export const BridalBeautyPage = () => {
             <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
               <img
                 src="https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=1000&q=80"
-                alt="Bridal Makeup and Nails La Posh Rajkot"
+                alt="Bridal Makeup and Hair Styling Khan Hair Xpenso Kurukshetra"
                 className="w-full h-full object-cover"
               />
             </div>

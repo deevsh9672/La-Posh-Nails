@@ -164,9 +164,9 @@ export const BookingWizard = () => {
   // STEP 4: Confirmation Screen
   if (step === 4 && bookingResult) {
     const waText = encodeURIComponent(
-      `Hello La Posh Studio, I have booked an appointment online! Reference: ${bookingResult.bookingReference} for ${bookingResult.customerName} on ${bookingResult.appointmentDate} at ${bookingResult.startTime}. Please confirm.`
+      `Hello Khan Hair Xpenso, I have booked an appointment online! Reference: ${bookingResult.bookingReference} for ${bookingResult.customerName} on ${bookingResult.appointmentDate} at ${bookingResult.startTime}. Please confirm.`
     );
-    const waUrl = `https://wa.me/919512348787?text=${waText}`;
+    const waUrl = `https://wa.me/919812362083?text=${waText}`;
 
     return (
       <div className="bg-white rounded-3xl border border-laposh-border p-8 sm:p-12 shadow-luxury max-w-2xl mx-auto text-center animate-fade-in">
@@ -206,7 +206,7 @@ export const BookingWizard = () => {
           <div className="flex justify-between items-center text-xs">
             <span className="text-laposh-muted">Location / Type:</span>
             <span className="font-semibold text-laposh-text">
-              {bookingResult.bookingType === 'salon' ? 'Studio Visit (Kalavad Road, Rajkot)' : 'Home Service'}
+              {bookingResult.bookingType === 'salon' ? 'Salon Visit (Sector 17, Kurukshetra)' : 'Home Service'}
             </span>
           </div>
           <div className="flex justify-between items-center text-xs">
@@ -383,7 +383,7 @@ export const BookingWizard = () => {
                 className="w-full px-4 py-3 rounded-xl border border-laposh-border bg-white text-laposh-text text-sm focus:outline-none focus:ring-2 focus:ring-laposh-gold/40"
               />
               <p className="text-[11px] text-laposh-muted">
-                Studio open 7 days a week: 10:00 AM – 8:00 PM.
+                Salon open 7 days a week: 10:00 AM – 9:30 PM.
               </p>
             </div>
 
@@ -532,7 +532,7 @@ export const BookingWizard = () => {
                 onChange={(e) => setBookingType(e.target.value)}
                 className="w-full px-4 py-3 rounded-xl border border-laposh-border bg-white text-sm focus:outline-none focus:ring-2 focus:ring-laposh-gold/40"
               >
-                <option value="salon">Salon Visit (102 Pride Corporate, Kalavad Rd)</option>
+                <option value="salon">Salon Visit (SCO-55, 56, Kessal Mall, Sector 17, Kurukshetra)</option>
                 <option value="home">Home Service (Bridal / Group Makeup only)</option>
               </select>
             </div>
@@ -565,7 +565,7 @@ export const BookingWizard = () => {
               <Link to="/privacy-policy" className="text-laposh-gold underline">
                 Privacy Policy
               </Link>{' '}
-              and understand that this appointment will be confirmed by La Posh Nails Studio via WhatsApp or phone call.
+              and understand that this appointment will be confirmed by Khan Hair Xpenso via WhatsApp or phone call.
             </label>
           </div>
 

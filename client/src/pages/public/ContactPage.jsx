@@ -23,17 +23,17 @@ export const ContactPage = () => {
     e.preventDefault();
     // Redirect to WhatsApp with prefilled message
     const msg = encodeURIComponent(
-      `Hello La Posh, my name is ${formData.name} (Phone: ${formData.phone}). ${formData.message}`
+      `Hello Khan Hair Xpenso, my name is ${formData.name} (Phone: ${formData.phone}). ${formData.message}`
     );
-    window.open(`https://wa.me/919512348787?text=${msg}`, '_blank');
+    window.open(`https://wa.me/919812362083?text=${msg}`, '_blank');
     setSubmitted(true);
   };
 
   return (
     <div className="py-12 sm:py-16">
       <SEOHead
-        title="Contact & Location | La Posh Nails Studio Rajkot"
-        description="Contact La Posh Nails Studio & Academy at 102 Pride Corporate, Kalavad Road, Rajkot. Call +91 95123 48787 or message on WhatsApp."
+        title="Contact & Location | Khan Hair Xpenso Kurukshetra"
+        description="Contact Khan Hair Xpenso - The Beauty Salon & Training at SCO-55, 56, Kessal Mall, Sector 17, Kurukshetra, Haryana. Call +91 98123 62083 or message on WhatsApp."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -46,7 +46,7 @@ export const ContactPage = () => {
             Visit Us or Connect
           </h1>
           <p className="text-xs sm:text-sm text-laposh-muted mt-2">
-            Have questions about bridal dates, nail extension pricing, or academy admissions? Our Rajkot studio team is here to assist you.
+            Have questions about appointments, hair styling, bridal makeup, or beauty training? Our Kurukshetra salon team is here to assist you.
           </p>
         </div>
 
@@ -54,19 +54,19 @@ export const ContactPage = () => {
           {/* Business Details Card */}
           <div className="bg-white rounded-3xl border border-laposh-border p-8 sm:p-10 shadow-luxury space-y-6">
             <h3 className="font-serif text-2xl font-bold text-laposh-text">
-              La Posh Nails Studio & Academy
+              Khan Hair Xpenso - The Beauty Salon & Training
             </h3>
 
             <div className="space-y-4 text-xs">
               <div className="flex items-start gap-3.5">
                 <MapPin className="w-5 h-5 text-laposh-gold shrink-0 mt-0.5" />
                 <div>
-                  <p className="font-bold text-laposh-text text-sm">Studio Address:</p>
+                  <p className="font-bold text-laposh-text text-sm">Salon Address:</p>
                   <p className="text-laposh-muted mt-0.5 leading-relaxed">
-                    102 Pride Corporate, Royal Park Main Road, Kalavad Road, Opposite Krishna Medical, Rajkot, Gujarat 360005
+                    SCO-55, 56, Kessal Mall, Sector 17, Kurukshetra, Haryana 136118 (Located in: Nike Store)
                   </p>
                   <a
-                    href="https://maps.google.com/?q=102+Pride+Corporate+Kalavad+Road+Rajkot"
+                    href="https://maps.google.com/?q=Khan+Hair+Xpenso+Kurukshetra"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block mt-2 text-laposh-gold font-semibold hover:underline"
@@ -80,7 +80,7 @@ export const ContactPage = () => {
                 <Clock className="w-5 h-5 text-laposh-gold shrink-0 mt-0.5" />
                 <div>
                   <p className="font-bold text-laposh-text text-sm">Opening Hours:</p>
-                  <p className="text-laposh-muted mt-0.5">Monday – Sunday: 10:00 AM – 8:00 PM</p>
+                  <p className="text-laposh-muted mt-0.5">Monday – Sunday: 10:00 AM – 9:30 PM</p>
                   <p className="text-[11px] text-emerald-600 font-medium">Open 7 Days a Week</p>
                 </div>
               </div>
@@ -90,10 +90,10 @@ export const ContactPage = () => {
                 <div>
                   <p className="font-bold text-laposh-text text-sm">Call Us Directly:</p>
                   <a
-                    href="tel:+919512348787"
+                    href="tel:+919812362083"
                     className="text-laposh-gold font-bold text-sm hover:underline"
                   >
-                    +91 95123 48787
+                    +91 98123 62083
                   </a>
                 </div>
               </div>
@@ -103,12 +103,12 @@ export const ContactPage = () => {
                 <div>
                   <p className="font-bold text-laposh-text text-sm">WhatsApp Chat:</p>
                   <a
-                    href="https://wa.me/919512348787"
+                    href="https://wa.me/919812362083"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-emerald-700 font-semibold hover:underline"
                   >
-                    +91 95123 48787 (Instant WhatsApp Chat)
+                    +91 98123 62083 (Instant WhatsApp Chat)
                   </a>
                 </div>
               </div>
@@ -118,12 +118,27 @@ export const ContactPage = () => {
                 <div>
                   <p className="font-bold text-laposh-text text-sm">Instagram:</p>
                   <a
-                    href="https://www.instagram.com/laposh_nails_and_salon/"
+                    href="https://www.instagram.com/khanhairxpenso_kkr/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-pink-700 font-semibold hover:underline"
                   >
-                    @laposh_nails_and_salon
+                    @khanhairxpenso_kkr
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3.5 pt-2 border-t border-laposh-border/60">
+                <span className="w-5 h-5 font-bold text-blue-600 flex items-center justify-center shrink-0 mt-0.5">f</span>
+                <div>
+                  <p className="font-bold text-laposh-text text-sm">Facebook:</p>
+                  <a
+                    href="https://www.facebook.com/khanhairxpensothebeautysalon"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-700 font-semibold hover:underline"
+                  >
+                    khanhairxpensothebeautysalon (4.3★ Rating)
                   </a>
                 </div>
               </div>
@@ -188,8 +203,8 @@ export const ContactPage = () => {
         {/* Embedded Map */}
         <div className="mt-16 h-96 rounded-3xl overflow-hidden border border-laposh-border shadow-luxury">
           <iframe
-            title="La Posh Nails Location Map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.874533036814!2d70.77190001496738!3d22.285800085331078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959ca780f2d123b%3A0x8e87496d0be220f!2sPride%20Corporate%2C%20Kalavad%20Rd%2C%20Rajkot%2C%20Gujarat%20360005!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin"
+            title="Khan Hair Xpenso Location Map"
+            src="https://maps.google.com/maps?q=SCO-55,+56,+Kessal+Mall,+Sector+17,+Kurukshetra,+Haryana+136118&t=&z=15&ie=UTF8&iwloc=&output=embed"
             width="100%"
             height="100%"
             style={{ border: 0 }}

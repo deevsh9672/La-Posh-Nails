@@ -18,11 +18,11 @@ beforeAll(async () => {
 
   // Setup Business Settings
   await BusinessSettings.create({
-    businessName: 'La Posh Nails Studio & Makeup Hairstyles Academy',
-    address: '102 Pride Corporate, Kalavad Road, Rajkot',
-    phone: '+91 95123 48787',
-    openingHours: { start: '10:00', end: '20:00', days: 'Monday – Sunday' },
-    googleRating: { rating: 4.3, reviewCount: 189 },
+    businessName: 'Khan Hair Xpenso - The Beauty Salon & Training',
+    address: 'SCO-55, 56, Kessal Mall, Sector 17, Kurukshetra, Haryana 136118',
+    phone: '+91 98123 62083',
+    openingHours: { start: '10:00', end: '21:30', days: 'Monday – Sunday' },
+    googleRating: { rating: 3.9, reviewCount: 301 },
     bookingSettings: {
       slotIntervalMinutes: 30,
       bufferMinutes: 15,
@@ -56,12 +56,12 @@ afterAll(async () => {
   await mongoServer.stop();
 });
 
-describe('La Posh REST API Test Suite', () => {
+describe('Khan Hair Xpenso REST API Test Suite', () => {
   test('1. Health check returns 200 and operational status', async () => {
     const res = await request(app).get('/api/health');
     expect(res.status).toBe(200);
     expect(res.body.status).toBe('online');
-    expect(res.body.service).toContain('La Posh');
+    expect(res.body.service).toContain('Khan Hair Xpenso');
   });
 
   test('2. Public services endpoint lists available services', async () => {
@@ -134,7 +134,7 @@ describe('La Posh REST API Test Suite', () => {
         courseInterest: 'Comprehensive Professional Nail Art Masterclass',
         skillLevel: 'Beginner',
         preferredBatch: 'Weekday Morning (10 AM - 1 PM)',
-        message: 'Looking to start my own salon studio in Rajkot',
+        message: 'Looking to start my own salon studio in Kurukshetra',
       });
 
     expect(res.status).toBe(201);
@@ -176,7 +176,7 @@ describe('La Posh REST API Test Suite', () => {
     const res = await request(app).get('/api/settings');
     expect(res.status).toBe(200);
     expect(res.body.success).toBe(true);
-    expect(res.body.data.businessName).toBe('La Posh Nails Studio & Makeup Hairstyles Academy');
-    expect(res.body.data.googleRating.rating).toBe(4.3);
+    expect(res.body.data.businessName).toBe('Khan Hair Xpenso - The Beauty Salon & Training');
+    expect(res.body.data.googleRating.rating).toBe(3.9);
   });
 });

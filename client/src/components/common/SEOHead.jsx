@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 
 export const SEOHead = ({
-  title = 'La Posh Nails Studio & Makeup Hairstyles Academy | Rajkot',
-  description = 'Premier nail salon and beauty academy in Rajkot, Gujarat. Specializing in acrylic extensions, custom nail art, bridal makeup, and professional beauty courses.',
+  title = 'Khan Hair Xpenso - The Beauty Salon & Training | Kurukshetra',
+  description = 'Local beauty salon in Kurukshetra offering haircuts, hair spa, nail extensions, bridal makeup, and certified beauty training.',
   canonicalUrl = window.location.href,
 }) => {
   useEffect(() => {
@@ -24,7 +24,7 @@ export const SEOHead = ({
     canonical.setAttribute('href', canonicalUrl);
 
     // Inject JSON-LD Schema for LocalBusiness / BeautySalon
-    const schemaId = 'laposh-local-business-schema';
+    const schemaId = 'khanhairxpenso-local-business-schema';
     let scriptTag = document.getElementById(schemaId);
     if (!scriptTag) {
       scriptTag = document.createElement('script');
@@ -36,39 +36,43 @@ export const SEOHead = ({
     const structuredData = {
       '@context': 'https://schema.org',
       '@type': 'BeautySalon',
-      name: 'La Posh Nails Studio & Makeup Hairstyles Academy',
+      name: 'Khan Hair Xpenso - The Beauty Salon & Training',
       image: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=800&q=80',
-      '@id': 'https://laposhbeauty.com',
-      url: 'https://laposhbeauty.com',
-      telephone: '+919512348787',
+      '@id': 'http://khanhairxpenso.com/',
+      url: 'http://khanhairxpenso.com/',
+      telephone: '+919812362083',
       priceRange: '₹₹',
       address: {
         '@type': 'PostalAddress',
-        streetAddress: '102 Pride Corporate, Royal Park Main Road, Kalavad Road, Opposite Krishna Medical',
-        addressLocality: 'Rajkot',
-        addressRegion: 'Gujarat',
-        postalCode: '360005',
+        streetAddress: 'SCO-55, 56, Kessal Mall, Sector 17',
+        addressLocality: 'Kurukshetra',
+        addressRegion: 'Haryana',
+        postalCode: '136118',
         addressCountry: 'IN',
       },
       geo: {
         '@type': 'GeoCoordinates',
-        latitude: 22.2858,
-        longitude: 70.7719,
+        latitude: 29.9695,
+        longitude: 76.8783,
       },
       openingHoursSpecification: [
         {
           '@type': 'OpeningHoursSpecification',
           dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
           opens: '10:00',
-          closes: '20:00',
+          closes: '21:30',
         },
       ],
       aggregateRating: {
         '@type': 'AggregateRating',
-        ratingValue: '4.3',
-        reviewCount: '189',
+        ratingValue: '3.9',
+        reviewCount: '301',
       },
-      sameAs: ['https://www.instagram.com/laposh_nails_and_salon/'],
+      sameAs: [
+        'https://www.instagram.com/khanhairxpenso_kkr/',
+        'https://www.facebook.com/khanhairxpensothebeautysalon',
+        'http://khanhairxpenso.com/',
+      ],
     };
 
     scriptTag.textContent = JSON.stringify(structuredData);

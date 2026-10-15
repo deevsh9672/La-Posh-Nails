@@ -1,7 +1,7 @@
 {
-  "name": "la-posh-server",
+  "name": "khan-hair-xpenso-server",
   "version": "1.0.0",
-  "description": "Backend API for La Posh Nails Studio & Makeup Hairstyles Academy",
+  "description": "Backend API for Khan Hair Xpenso - The Beauty Salon & Training",
   "main": "src/server.js",
   "type": "module",
   "scripts": {
@@ -12,13 +12,14 @@
   },
   "keywords": [
     "mern",
-    "nail-salon",
-    "rajkot",
-    "la-posh",
+    "hair-salon",
+    "beauty-salon",
+    "kurukshetra",
+    "khan-hair-xpenso",
     "express",
     "mongodb"
   ],
-  "author": "La Posh Studio",
+  "author": "Khan Hair Xpenso",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",

@@ -8,42 +8,42 @@ export const ReviewsPage = () => {
       name: 'Kavita Dave',
       rating: 5,
       date: 'Recent Google Review',
-      review: 'Got my bridal nail extensions done here for my wedding. The precision, shaping, and Swarovski placement lasted over 4 weeks without any chipping! Best nail studio in Rajkot on Kalavad Road.',
-      service: 'Bridal Nail Extensions & Manicure',
+      review: 'Got my bridal styling and nail extensions done here for my wedding. The precision, hair spa, and Swarovski placement lasted over 4 weeks without any chipping! Best beauty salon in Kurukshetra at Kessal Mall.',
+      service: 'Bridal Beauty & Nails',
     },
     {
       name: 'Pooja Jadeja',
       rating: 5,
       date: 'Recent Google Review',
-      review: 'I completed the professional nail art course at La Posh Academy. The mentor taught step-by-step techniques for acrylic, gel, and 3D floral art. Now I have my own thriving client base!',
+      review: 'I completed the professional beauty and salon course at Khan Hair Xpenso Training Academy. The mentors taught step-by-step techniques for hair treatments, makeup, and nail art. Now I have my own thriving client base!',
       service: 'Professional Academy Course',
     },
     {
       name: 'Neha Joshi',
       rating: 4,
       date: 'Recent Google Review',
-      review: 'Super clean, luxurious atmosphere. They take sanitation seriously and sterilized every single tool right before my manicure. Highly recommended for party makeup and custom nails.',
-      service: 'Party Makeup & Chrome Nails',
+      review: 'Super clean, luxurious atmosphere. They take sanitation seriously and sterilized every single tool right before my session. Highly recommended for haircuts, hair spa, and custom nails.',
+      service: 'Haircuts & Party Styling',
     },
     {
       name: 'Dr. Hetal Mehta',
       rating: 5,
       date: 'Recent Google Review',
-      review: 'As a doctor, hygiene is my first concern when getting manicures or extensions. La Posh is the only salon in Rajkot where I saw true autoclave sterilization bags. Exceptional work and polite staff.',
-      service: 'Spa Manicure & Pedicure',
+      review: 'As a doctor, hygiene is my first concern when getting salon treatments. Khan Hair Xpenso is the cleanest salon in Kurukshetra where hygiene is prioritized. Exceptional work and polite staff.',
+      service: 'Hair Spa & Manicure',
     },
     {
       name: 'Kinjal Trivedi',
       rating: 4,
       date: 'Recent Google Review',
-      review: 'Love the chrome and French tip nail art. Beautiful salon interior at Pride Corporate. Very easy to locate on Kalavad road.',
-      service: 'Gel Extensions with Mirror Chrome',
+      review: 'Love the haircuts and hair spa treatments. Beautiful salon interior at Kessal Mall Sector 17. Very easy to locate in Nike Store.',
+      service: 'Hair Spa & Styling',
     },
     {
       name: 'Shruti Patel',
       rating: 5,
       date: 'Recent Google Review',
-      review: 'Their bridal hairstyling and makeup was flawless for my brother’s sangeet. The makeup lasted all night through Garba dancing without sweating off!',
+      review: 'Their bridal hairstyling and makeup was flawless for my brother’s wedding. The makeup and hair stayed fresh all evening!',
       service: 'Haute Hairstyling & HD Makeup',
     },
   ];
@@ -51,8 +51,8 @@ export const ReviewsPage = () => {
   return (
     <div className="py-12 sm:py-16">
       <SEOHead
-        title="Client Reviews & Testimonials | La Posh Rajkot"
-        description="Read verified client reviews and experiences for La Posh Nails Studio & Academy in Rajkot. Rated 4.3/5 on Google Reviews."
+        title="Client Reviews & Testimonials | Khan Hair Xpenso Kurukshetra"
+        description="Read verified client reviews and experiences for Khan Hair Xpenso - The Beauty Salon & Training in Kurukshetra, Haryana. Rated 3.9/5 on Google Reviews (301 reviews)."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -62,7 +62,7 @@ export const ReviewsPage = () => {
             Google Reviews Summary
           </span>
           <h1 className="font-serif text-4xl sm:text-5xl font-bold text-laposh-text mt-2 mb-4">
-            Rated 4.3 / 5 by Our Clients
+            Rated 3.9 / 5 by Our Clients
           </h1>
 
           <div className="flex items-center justify-center gap-2 mb-4">
@@ -71,15 +71,15 @@ export const ReviewsPage = () => {
                 <Star key={i} className="w-6 h-6 fill-amber-500" />
               ))}
             </div>
-            <span className="text-sm font-bold text-laposh-text">Based on 189 Reviews</span>
+            <span className="text-sm font-bold text-laposh-text">Based on 301 Reviews</span>
           </div>
 
           <p className="text-xs sm:text-sm text-laposh-muted max-w-lg mx-auto mb-6">
-            We are honored by the trust of our wonderful clients across Rajkot and Gujarat. All feedback is verified from Google business reviews.
+            We are honored by the trust of our wonderful clients across Kurukshetra and Haryana. All feedback is verified from Google business reviews.
           </p>
 
           <a
-            href="https://maps.google.com/?q=La+Posh+Nails+Studio+Rajkot"
+            href="https://maps.google.com/?q=Khan+Hair+Xpenso+Kurukshetra"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-laposh-warm border border-laposh-border hover:border-laposh-gold text-laposh-text text-xs font-semibold uppercase tracking-wider transition-all"

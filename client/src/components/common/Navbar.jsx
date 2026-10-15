@@ -46,10 +46,10 @@ export const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex flex-col items-start group">
             <span className="font-serif text-2xl sm:text-3xl font-bold tracking-tight text-laposh-text group-hover:text-laposh-gold transition-colors">
-              La Posh
+              Khan Hair Xpenso
             </span>
             <span className="text-[10px] tracking-widest uppercase font-medium text-laposh-gold -mt-1">
-              Nails Studio & Academy
+              The Beauty Salon & Training
             </span>
           </Link>
 
@@ -76,11 +76,11 @@ export const Navbar = () => {
           {/* Desktop Right CTAs */}
           <div className="hidden lg:flex items-center space-x-4">
             <a
-              href="tel:+919512348787"
+              href="tel:+919812362083"
               className="flex items-center gap-1.5 text-xs font-semibold text-laposh-text hover:text-laposh-gold transition-colors px-2 py-1"
             >
               <Phone className="w-3.5 h-3.5 text-laposh-gold" />
-              <span>+91 95123 48787</span>
+              <span>+91 98123 62083</span>
             </a>
 
             <Link
@@ -135,11 +135,11 @@ export const Navbar = () => {
 
           <div className="pt-3 border-t border-laposh-border space-y-2">
             <a
-              href="tel:+919512348787"
+              href="tel:+919812362083"
               className="flex items-center justify-center gap-2 w-full py-2.5 rounded-lg border border-laposh-border text-sm font-semibold text-laposh-text"
             >
               <Phone className="w-4 h-4 text-laposh-gold" />
-              <span>Call +91 95123 48787</span>
+              <span>Call +91 98123 62083</span>
             </a>
 
             <Link

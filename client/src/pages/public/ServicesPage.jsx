@@ -54,8 +54,8 @@ export const ServicesPage = () => {
   return (
     <div className="py-12 sm:py-16">
       <SEOHead
-        title="Beauty & Nail Art Services | La Posh Studio Rajkot"
-        description="Explore our full menu of acrylic nail extensions, custom 3D nail art, spa manicures, HD bridal makeup, and hairstyling in Rajkot."
+        title="Beauty, Hair & Nail Art Services | Khan Hair Xpenso Kurukshetra"
+        description="Explore our full menu of haircuts, hair spa, acrylic nail extensions, custom 3D nail art, spa manicures, and HD bridal makeup in Kurukshetra."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -65,7 +65,7 @@ export const ServicesPage = () => {
             Bespoke Beauty Menu
           </span>
           <h1 className="font-serif text-4xl sm:text-5xl font-bold text-laposh-text mt-1">
-            Studio Services & Treatments
+            Salon Services & Treatments
           </h1>
           <p className="text-xs sm:text-sm text-laposh-muted mt-3">
             Handcrafted nail extensions, rejuvenating spa treatments, and professional makeup designed to bring out your effortless radiance.

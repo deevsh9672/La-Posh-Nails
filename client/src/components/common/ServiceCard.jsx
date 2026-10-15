@@ -11,7 +11,7 @@ export const ServiceCard = ({ service }) => {
       <div className="relative aspect-[4/3] overflow-hidden bg-laposh-warm">
         <img
           src={imageUrl}
-          alt={`${name} at La Posh Nails Studio Rajkot`}
+          alt={`${name} at Khan Hair Xpenso Kurukshetra`}
           loading="lazy"
           className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
         />
@@ -61,8 +61,8 @@ export const ServiceCard = ({ service }) => {
             </Link>
 
             <a
-              href={`https://wa.me/919512348787?text=${encodeURIComponent(
-                `Hello La Posh, I would like to enquire about the "${name}" service.`
+              href={`https://wa.me/919812362083?text=${encodeURIComponent(
+                `Hello Khan Hair Xpenso, I would like to enquire about the "${name}" service.`
               )}`}
               target="_blank"
               rel="noopener noreferrer"

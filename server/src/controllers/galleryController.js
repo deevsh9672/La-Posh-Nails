@@ -58,7 +58,7 @@ export const createGalleryImage = async (req, res, next) => {
       category,
       imageUrl,
       cloudinaryPublicId,
-      altText: altText || `${title} - La Posh Nails Studio Rajkot`,
+      altText: altText || `${title} - Khan Hair Xpenso Kurukshetra`,
       sortOrder: sortOrder ? Number(sortOrder) : 0,
       isPublished: isPublished !== undefined ? String(isPublished) === 'true' : true,
     });

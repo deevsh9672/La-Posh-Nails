@@ -1,18 +1,20 @@
-# La Posh Nails Studio & Makeup Hairstyles Academy
+# Khan Hair Xpenso - The Beauty Salon & Training
 
-A full-stack production-ready MERN web application built for **La Posh Nails Studio & Makeup Hairstyles Academy**, located at 102 Pride Corporate, Kalavad Road, Rajkot, Gujarat.
+A full-stack production-ready MERN web application built for **Khan Hair Xpenso - The Beauty Salon & Training**, located at SCO-55, 56, Kessal Mall, Sector 17, Kurukshetra, Haryana 136118 (Located in: Nike Store).
 
 ---
 
 ## 💅 Business Profile
 
-- **Business Name**: La Posh Nails Studio & Makeup Hairstyles Academy
-- **Address**: 102 Pride Corporate, Royal Park Main Road, Kalavad Road, Opposite Krishna Medical, Rajkot, Gujarat 360005
-- **Phone**: [+91 95123 48787](tel:+919512348787)
-- **WhatsApp**: [Chat on WhatsApp](https://wa.me/919512348787)
-- **Instagram**: [@laposh_nails_and_salon](https://www.instagram.com/laposh_nails_and_salon/)
-- **Google Rating**: 4.3 / 5 from 189 verified reviews
-- **Operating Hours**: Monday – Sunday, 10:00 AM – 8:00 PM
+- **Business Name**: Khan Hair Xpenso - The Beauty Salon & Training
+- **Address**: SCO-55, 56, Kessal Mall, Sector 17, Kurukshetra, Haryana 136118 (Located in: Nike Store)
+- **Phone**: [+91 98123 62083](tel:+919812362083) (098123 62083)
+- **WhatsApp**: [Chat on WhatsApp](https://wa.me/919812362083)
+- **Instagram**: [@khanhairxpenso_kkr](https://www.instagram.com/khanhairxpenso_kkr/)
+- **Facebook**: [khanhairxpensothebeautysalon](https://www.facebook.com/khanhairxpensothebeautysalon) (4.3 / 5 from 3 votes)
+- **Website**: [khanhairxpenso.com](http://khanhairxpenso.com/)
+- **Google Rating**: 3.9 / 5 from 301 verified Google reviews
+- **Operating Hours**: Monday – Sunday, 10:00 AM – 9:30 PM
 
 ---
 
@@ -124,11 +126,11 @@ EMAIL_HOST=smtp.gmail.com
 EMAIL_PORT=587
 EMAIL_USER=your_email@gmail.com
 EMAIL_PASSWORD=your_email_app_password
-EMAIL_FROM="La Posh Studio & Academy" <no-reply@laposh.com>
-ADMIN_NOTIFICATION_EMAIL=admin@laposh.com
+EMAIL_FROM="Khan Hair Xpenso" <no-reply@khanhairxpenso.com>
+ADMIN_NOTIFICATION_EMAIL=admin@khanhairxpenso.com
 
 # Studio WhatsApp Number
-WHATSAPP_BUSINESS_NUMBER=919512348787
+WHATSAPP_BUSINESS_NUMBER=919812362083
 ```
 
 ### 3. Install Dependencies

@@ -7,8 +7,8 @@ export const AboutPage = () => {
   return (
     <div className="py-12 sm:py-16">
       <SEOHead
-        title="About Us | La Posh Nails Studio & Academy Rajkot"
-        description="Learn about La Posh Nails Studio & Academy on Kalavad Road, Rajkot. Discover our commitment to nail artistry, clinical sanitation, and professional education."
+        title="About Us | Khan Hair Xpenso - The Beauty Salon & Training"
+        description="Learn about Khan Hair Xpenso - The Beauty Salon & Training in Kurukshetra, Haryana. Discover our dedication to haircare, haircuts, rejuvenating hair spa, bridal styling, and professional training."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -17,28 +17,28 @@ export const AboutPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <span className="text-xs font-semibold uppercase tracking-widest text-laposh-gold">
-                The La Posh Legacy
+                The Khan Hair Xpenso Story
               </span>
               <h1 className="font-serif text-4xl sm:text-5xl font-bold text-laposh-text leading-tight">
                 Crafting Confidence Through Artistry & Care.
               </h1>
               <p className="text-xs sm:text-sm text-laposh-muted leading-relaxed">
-                Founded in the vibrant city of Rajkot, <strong>La Posh Nails Studio & Makeup Hairstyles Academy</strong> was established with a singular vision: to bring world-class nail craftsmanship, bridal styling, and accredited vocational beauty training under one luxurious roof.
+                Founded in Kurukshetra, Haryana, <strong>Khan Hair Xpenso - The Beauty Salon & Training</strong> was established with a singular vision: to deliver world-class hair styling, rejuvenating hair spa, bespoke nail artistry, bridal makeovers, and accredited vocational salon training.
               </p>
               <p className="text-xs sm:text-sm text-laposh-muted leading-relaxed">
-                Located conveniently at <strong>102 Pride Corporate on Kalavad Road</strong>, our studio provides a tranquil sanctuary where clients escape the daily rush to enjoy bespoke pampering, executed with hospital-grade hygiene standards.
+                Located conveniently at <strong>SCO-55, 56, Kessal Mall, Sector 17, Kurukshetra (in Nike Store)</strong>, our salon provides a welcoming sanctuary where clients enjoy tailored pampering executed with hospital-grade hygiene standards.
               </p>
 
               <div className="grid grid-cols-2 gap-4 pt-2">
                 <div className="p-4 rounded-2xl bg-laposh-warm border border-laposh-border text-center">
-                  <p className="font-serif text-3xl font-bold text-laposh-gold">4.3 / 5</p>
+                  <p className="font-serif text-3xl font-bold text-laposh-gold">3.9 / 5</p>
                   <p className="text-xs font-semibold text-laposh-text mt-1">Google Rating</p>
-                  <p className="text-[10px] text-laposh-muted">From 189+ Real Reviews</p>
+                  <p className="text-[10px] text-laposh-muted">From 301+ Google Reviews</p>
                 </div>
                 <div className="p-4 rounded-2xl bg-laposh-warm border border-laposh-border text-center">
                   <p className="font-serif text-3xl font-bold text-laposh-gold">100%</p>
                   <p className="text-xs font-semibold text-laposh-text mt-1">Sterilized Tools</p>
-                  <p className="text-[10px] text-laposh-muted">Hospital Grade Autoclave</p>
+                  <p className="text-[10px] text-laposh-muted">Hospital Grade Hygiene</p>
                 </div>
               </div>
             </div>
@@ -46,7 +46,7 @@ export const AboutPage = () => {
             <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
               <img
                 src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1000&q=80"
-                alt="La Posh Studio Ambience Rajkot"
+                alt="Khan Hair Xpenso Ambience Kurukshetra"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -60,7 +60,7 @@ export const AboutPage = () => {
               Core Principles
             </span>
             <h2 className="font-serif text-3xl font-bold text-laposh-text mt-1">
-              What Sets La Posh Apart
+              What Sets Khan Hair Xpenso Apart
             </h2>
           </div>
 
@@ -77,7 +77,7 @@ export const AboutPage = () => {
               <Sparkles className="w-8 h-8 text-laposh-gold mb-4" />
               <h3 className="font-serif text-lg font-bold text-laposh-text mb-2">Master Artistry</h3>
               <p className="text-xs text-laposh-muted leading-relaxed">
-                Our technicians are continuously upskilled in global trends: Russian cuticle care, Korean glass chrome finishes, and Indian bridal couture nail architecture.
+                Our stylists and technicians are continuously upskilled in global trends: precision haircutting, nourishing hair spa treatments, and bridal couture transformations.
               </p>
             </div>
 
@@ -85,7 +85,7 @@ export const AboutPage = () => {
               <Award className="w-8 h-8 text-laposh-gold mb-4" />
               <h3 className="font-serif text-lg font-bold text-laposh-text mb-2">Empowering Education</h3>
               <p className="text-xs text-laposh-muted leading-relaxed">
-                Through La Posh Academy, we foster aspiring artists and entrepreneurs across Gujarat with hands-on technical skills and business acumen to launch successful beauty careers.
+                Through Khan Hair Xpenso Training Academy, we foster aspiring artists and entrepreneurs across Haryana with hands-on technical skills and business acumen to launch successful beauty careers.
               </p>
             </div>
           </div>

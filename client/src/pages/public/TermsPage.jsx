@@ -5,8 +5,8 @@ export const TermsPage = () => {
   return (
     <div className="py-12 sm:py-16">
       <SEOHead
-        title="Terms & Conditions | La Posh Nails Studio & Academy"
-        description="Terms of service and booking conditions for La Posh Nails Studio & Academy in Rajkot, Gujarat."
+        title="Terms & Conditions | Khan Hair Xpenso - The Beauty Salon & Training"
+        description="Terms of service and booking conditions for Khan Hair Xpenso in Kurukshetra, Haryana."
       />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -19,7 +19,7 @@ export const TermsPage = () => {
           <section className="space-y-2">
             <h2 className="font-serif text-base font-bold text-laposh-text">1. Appointment Scheduling</h2>
             <p>
-              Online appointment requests generated through our website are subject to final confirmation by La Posh Nails Studio. A reservation is marked confirmed once our team verifies availability and contacts you.
+              Online appointment requests generated through our website are subject to final confirmation by Khan Hair Xpenso. A reservation is marked confirmed once our team verifies availability and contacts you.
             </p>
           </section>
 
@@ -38,9 +38,9 @@ export const TermsPage = () => {
           </section>
 
           <section className="space-y-2">
-            <h2 className="font-serif text-base font-bold text-laposh-text">4. Studio Location</h2>
+            <h2 className="font-serif text-base font-bold text-laposh-text">4. Salon Location</h2>
             <p>
-              All salon services and academy classes are held at 102 Pride Corporate, Royal Park Main Road, Kalavad Road, Opposite Krishna Medical, Rajkot, Gujarat 360005, unless bridal home services have been contracted in advance.
+              All salon services and academy classes are held at SCO-55, 56, Kessal Mall, Sector 17, Kurukshetra, Haryana 136118 (Located in: Nike Store), unless bridal home services have been contracted in advance.
             </p>
           </section>
         </div>

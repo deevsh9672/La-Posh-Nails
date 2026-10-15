@@ -56,8 +56,8 @@ export const NailArtPage = () => {
   return (
     <div className="py-12 sm:py-16">
       <SEOHead
-        title="Nail Extensions & Custom Nail Art | La Posh Rajkot"
-        description="Sculpted acrylic nail extensions, chrome nails, French manicures, and bespoke 3D bridal nail art in Rajkot at 102 Pride Corporate."
+        title="Nail Extensions & Custom Nail Art | Khan Hair Xpenso Kurukshetra"
+        description="Sculpted acrylic nail extensions, chrome nails, French manicures, and bespoke 3D bridal nail art in Kurukshetra at Khan Hair Xpenso."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -72,7 +72,7 @@ export const NailArtPage = () => {
                 Sculpted Nails Crafted With Flawless Precision.
               </h1>
               <p className="text-xs sm:text-sm text-laposh-muted leading-relaxed">
-                Whether you adore minimal French tips, high-voltage mirror chrome, or bespoke hand-painted bridal masterpieces, our master nail technicians in Rajkot blend medical-grade hygiene with international artistry.
+                Whether you adore minimal French tips, high-voltage mirror chrome, or bespoke hand-painted bridal masterpieces, our master technicians in Kurukshetra blend medical-grade hygiene with international artistry.
               </p>
 
               <div className="space-y-2.5 pt-2 text-xs">
@@ -103,7 +103,7 @@ export const NailArtPage = () => {
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-lg border-2 border-white">
               <img
                 src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=1000&q=80"
-                alt="Chrome & Acrylic Nails La Posh Rajkot"
+                alt="Chrome & Acrylic Nails Khan Hair Xpenso Kurukshetra"
                 className="w-full h-full object-cover"
               />
             </div>

@@ -28,8 +28,8 @@ export const MakeupHairstylesPage = () => {
   return (
     <div className="py-12 sm:py-16">
       <SEOHead
-        title="Makeup & Professional Hairstyles | La Posh Rajkot"
-        description="Signature dewy makeup, HD party glam, couture hairstyles, and hair updos for events and celebrations in Rajkot."
+        title="Hair Styling, Haircuts & Makeup | Khan Hair Xpenso Kurukshetra"
+        description="Signature haircuts, rejuvenating hair spa, HD makeup, and couture hairstyles for events and celebrations in Kurukshetra."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -44,7 +44,7 @@ export const MakeupHairstylesPage = () => {
                 Modern Glamour, Tailored to Your Natural Glow.
               </h1>
               <p className="text-xs sm:text-sm text-laposh-muted leading-relaxed">
-                From soft dewy morning celebrations to high-definition red carpet evening glam, our master makeup artists and hair stylists in Rajkot use premium international brands (Huda Beauty, MAC, Charlotte Tilbury, Dyson) to ensure your look remains flawless under all lighting.
+                From precision haircuts, refreshing hair spa treatments, soft dewy looks to high-definition evening glam, our master stylists in Kurukshetra use premium international products to ensure your look remains flawless.
               </p>
 
               <div className="space-y-2.5 pt-2 text-xs">
@@ -82,7 +82,7 @@ export const MakeupHairstylesPage = () => {
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-lg border-2 border-white">
               <img
                 src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=1000&q=80"
-                alt="Party and Evening Makeup La Posh Rajkot"
+                alt="Party and Evening Makeup Khan Hair Xpenso Kurukshetra"
                 className="w-full h-full object-cover"
               />
             </div>

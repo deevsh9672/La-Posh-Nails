@@ -7,8 +7,8 @@ export const BookAppointmentPage = () => {
   return (
     <div className="py-12 sm:py-16">
       <SEOHead
-        title="Book Appointment Online | La Posh Nails Studio Rajkot"
-        description="Book your nail extensions, custom nail art, or bridal makeup appointment online at La Posh Nails Studio in Rajkot with real-time slot availability."
+        title="Book Appointment Online | Khan Hair Xpenso Kurukshetra"
+        description="Book your haircut, hair spa, nail extensions, custom nail art, or bridal makeup appointment online at Khan Hair Xpenso in Kurukshetra with real-time slot availability."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -136,14 +136,14 @@ const initialGallery = [
     title: 'Modern Classic French Tips',
     category: 'French Nails',
     imageUrl: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=800&q=80',
-    altText: 'Elegant French manicure tips by La Posh Nails Rajkot',
+    altText: 'Elegant French manicure tips by Khan Hair Xpenso',
     sortOrder: 1,
   },
   {
     title: 'Iridescent Mirror Chrome Nails',
     category: 'Chrome Nails',
     imageUrl: 'https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=800&q=80',
-    altText: 'Silver mirror chrome nail finish at Kalavad Road salon',
+    altText: 'Silver mirror chrome nail finish at Sector 17 Kurukshetra salon',
     sortOrder: 2,
   },
   {
@@ -164,7 +164,7 @@ const initialGallery = [
     title: 'Champagne Glitter Sparkle Fade',
     category: 'Glitter Nails',
     imageUrl: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80',
-    altText: 'Sparkling glitter manicure for celebrations in Rajkot',
+    altText: 'Sparkling glitter manicure for celebrations in Kurukshetra',
     sortOrder: 5,
   },
   {
@@ -185,7 +185,7 @@ const initialGallery = [
     title: 'Stiletto Sculpted Acrylic Extensions',
     category: 'Acrylic Extensions',
     imageUrl: 'https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=800&q=80',
-    altText: 'Sculpted stiletto acrylic nail extensions by La Posh',
+    altText: 'Sculpted stiletto acrylic nail extensions by Khan Hair Xpenso',
     sortOrder: 8,
   },
   {
@@ -204,33 +204,40 @@ export const seedDatabase = async (options = {}) => {
     }
     console.log('[Seed] Seeding database...');
 
-    // 1. Seed Business Settings
+    const businessData = {
+      businessName: 'Khan Hair Xpenso - The Beauty Salon & Training',
+      address: 'SCO-55, 56, Kessal Mall, Sector 17, Kurukshetra, Haryana 136118',
+      phone: '+91 98123 62083',
+      whatsappNumber: '919812362083',
+      openingHours: {
+        start: '10:00',
+        end: '21:30',
+        days: 'Monday – Sunday (10 AM – 9:30 PM)',
+      },
+      instagramUrl: 'https://www.instagram.com/khanhairxpenso_kkr/',
+      facebookUrl: 'https://www.facebook.com/khanhairxpensothebeautysalon',
+      websiteUrl: 'http://khanhairxpenso.com/',
+      googleRating: {
+        rating: 3.9,
+        reviewCount: 301,
+        googleMapsReviewUrl: 'https://maps.google.com/?q=Khan+Hair+Xpenso+Kurukshetra',
+      },
+      bookingSettings: {
+        slotIntervalMinutes: 30,
+        bufferMinutes: 15,
+        maxAdvanceDays: 30,
+        simultaneousStaffCount: 2,
+      },
+    };
+
     let settings = await BusinessSettings.findOne();
     if (!settings) {
-      settings = await BusinessSettings.create({
-        businessName: 'La Posh Nails Studio & Makeup Hairstyles Academy',
-        address: '102 Pride Corporate, Royal Park Main Road, Kalavad Road, Opposite Krishna Medical, Rajkot, Gujarat 360005',
-        phone: '+91 95123 48787',
-        whatsappNumber: '919512348787',
-        openingHours: {
-          start: '10:00',
-          end: '20:00',
-          days: 'Monday – Sunday (10 AM – 8 PM)',
-        },
-        instagramUrl: 'https://www.instagram.com/laposh_nails_and_salon/',
-        googleRating: {
-          rating: 4.3,
-          reviewCount: 189,
-          googleMapsReviewUrl: 'https://maps.google.com/?q=La+Posh+Nails+Studio+Rajkot',
-        },
-        bookingSettings: {
-          slotIntervalMinutes: 30,
-          bufferMinutes: 15,
-          maxAdvanceDays: 30,
-          simultaneousStaffCount: 2,
-        },
-      });
+      settings = await BusinessSettings.create(businessData);
       console.log('✅ Business Settings seeded');
+    } else {
+      Object.assign(settings, businessData);
+      await settings.save();
+      console.log('✅ Business Settings updated with Khan Hair Xpenso');
     }
 
     // 2. Seed Admin

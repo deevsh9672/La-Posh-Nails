@@ -109,8 +109,8 @@ export const AcademyPage = () => {
   return (
     <div className="py-12 sm:py-16">
       <SEOHead
-        title="Nail Art Courses & Academy in Rajkot | La Posh Academy"
-        description="Learn professional nail extensions, acrylic sculpting, 3D nail art, and salon management in Rajkot. Hands-on masterclasses with government certification."
+        title="Beauty & Salon Courses & Academy in Kurukshetra | Khan Hair Xpenso Training"
+        description="Learn professional hair styling, haircuts, hair spa, nail extensions, 3D nail art, and salon management in Kurukshetra. Hands-on masterclasses with government certification."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -119,13 +119,13 @@ export const AcademyPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             <div className="space-y-5">
               <span className="px-3.5 py-1 rounded-full text-[11px] font-semibold uppercase tracking-wider bg-laposh-gold text-white shadow-xs">
-                La Posh Academy • Rajkot
+                Khan Hair Xpenso Training Academy • Kurukshetra
               </span>
               <h1 className="font-serif text-4xl sm:text-5xl font-bold text-laposh-text leading-tight">
-                Turn Your Passion for Nail Art Into a Profession.
+                Turn Your Passion for Beauty & Hair Into a Profession.
               </h1>
               <p className="text-xs sm:text-sm text-laposh-muted leading-relaxed">
-                Step into the high-growth luxury beauty industry. Our intensive academy program in Rajkot provides real live-model training, comprehensive student toolkits, master-level guidance, and certified career pathways.
+                Step into the high-growth luxury beauty industry. Our intensive academy program in Kurukshetra provides real live-model training, comprehensive student toolkits, master-level guidance, and certified career pathways.
               </p>
 
               <div className="grid grid-cols-2 gap-3 pt-2 text-xs">
@@ -157,8 +157,8 @@ export const AcademyPage = () => {
                 </a>
 
                 <a
-                  href={`https://wa.me/919512348787?text=${encodeURIComponent(
-                    'Hello La Posh Academy, I want to learn more about the Nail Art Masterclass fees, batch timings, and certification.'
+                  href={`https://wa.me/919812362083?text=${encodeURIComponent(
+                    'Hello Khan Hair Xpenso Academy, I want to learn more about the Salon & Beauty Masterclass fees, batch timings, and certification.'
                   )}`}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -173,7 +173,7 @@ export const AcademyPage = () => {
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl border-2 border-white">
               <img
                 src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=80"
-                alt="Nail Art Student Training in Rajkot"
+                alt="Beauty and Salon Student Training in Kurukshetra"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -246,8 +246,8 @@ export const AcademyPage = () => {
                   Thank you, <strong>{formData.studentName}</strong>. Our academy coordinator will connect with you via WhatsApp/call within 24 hours.
                 </p>
                 <a
-                  href={`https://wa.me/919512348787?text=${encodeURIComponent(
-                    `Hello La Posh Academy, I just submitted an online inquiry for ${formData.courseInterest}. My name is ${formData.studentName}.`
+                  href={`https://wa.me/919812362083?text=${encodeURIComponent(
+                    `Hello Khan Hair Xpenso Academy, I just submitted an online inquiry for ${formData.courseInterest}. My name is ${formData.studentName}.`
                   )}`}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -342,7 +342,7 @@ export const AcademyPage = () => {
                   </label>
                   <textarea
                     rows={3}
-                    placeholder="Tell us what you hope to achieve (e.g. start own studio in Rajkot, add nail extensions to salon menu)..."
+                    placeholder="Tell us what you hope to achieve (e.g. start own studio in Kurukshetra, add nail extensions to salon menu)..."
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                     className="w-full p-4 rounded-xl border border-laposh-border bg-white text-sm focus:outline-none focus:ring-2 focus:ring-laposh-gold/40"

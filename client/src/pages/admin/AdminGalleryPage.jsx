@@ -260,7 +260,7 @@ export const AdminGalleryPage = () => {
                 <input
                   type="text"
                   required
-                  placeholder="e.g. French tip acrylic nail extensions in Rajkot studio"
+                  placeholder="e.g. French tip acrylic nail extensions in Kurukshetra salon"
                   value={formData.altText}
                   onChange={(e) => setFormData({ ...formData, altText: e.target.value })}
                   className="w-full px-4 py-2.5 rounded-xl border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-laposh-gold/40"

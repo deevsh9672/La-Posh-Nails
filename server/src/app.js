@@ -89,8 +89,8 @@ app.use(async (req, res, next) => {
 app.get('/', (req, res) => {
   res.status(200).json({
     status: 'online',
-    service: 'La Posh Nails Studio & Academy API',
-    location: 'Rajkot, Gujarat',
+    service: 'Khan Hair Xpenso API',
+    location: 'Kurukshetra, Haryana',
     endpoints: {
       health: '/api/health',
       services: '/api/services',
@@ -106,8 +106,8 @@ app.get('/api/health', (req, res) => {
   res.status(200).json({
     status: 'online',
     timestamp: new Date().toISOString(),
-    service: 'La Posh Nails Studio & Academy API',
-    location: 'Rajkot, Gujarat',
+    service: 'Khan Hair Xpenso API',
+    location: 'Kurukshetra, Haryana',
   });
 });
 

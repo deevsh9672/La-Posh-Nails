@@ -4,35 +4,43 @@ const businessSettingsSchema = new mongoose.Schema(
   {
     businessName: {
       type: String,
-      default: 'La Posh Nails Studio & Makeup Hairstyles Academy',
+      default: 'Khan Hair Xpenso - The Beauty Salon & Training',
     },
     address: {
       type: String,
-      default: '102 Pride Corporate, Royal Park Main Road, Kalavad Road, Opposite Krishna Medical, Rajkot, Gujarat 360005',
+      default: 'SCO-55, 56, Kessal Mall, Sector 17, Kurukshetra, Haryana 136118',
     },
     phone: {
       type: String,
-      default: '+91 95123 48787',
+      default: '+91 98123 62083',
     },
     whatsappNumber: {
       type: String,
-      default: '919512348787',
+      default: '919812362083',
     },
     openingHours: {
       start: { type: String, default: '10:00' },
-      end: { type: String, default: '20:00' },
-      days: { type: String, default: 'Monday – Sunday (10 AM – 8 PM)' },
+      end: { type: String, default: '21:30' },
+      days: { type: String, default: 'Monday – Sunday (10 AM – 9:30 PM)' },
     },
     instagramUrl: {
       type: String,
-      default: 'https://www.instagram.com/laposh_nails_and_salon/',
+      default: 'https://www.instagram.com/khanhairxpenso_kkr/',
+    },
+    facebookUrl: {
+      type: String,
+      default: 'https://www.facebook.com/khanhairxpensothebeautysalon',
+    },
+    websiteUrl: {
+      type: String,
+      default: 'http://khanhairxpenso.com/',
     },
     googleRating: {
-      rating: { type: Number, default: 4.3 },
-      reviewCount: { type: Number, default: 189 },
+      rating: { type: Number, default: 3.9 },
+      reviewCount: { type: Number, default: 301 },
       googleMapsReviewUrl: {
         type: String,
-        default: 'https://maps.google.com/?q=La+Posh+Nails+Studio+Rajkot',
+        default: 'https://maps.google.com/?q=Khan+Hair+Xpenso+Kurukshetra',
       },
     },
     bookingSettings: {

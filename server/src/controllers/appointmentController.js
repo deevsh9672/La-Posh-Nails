@@ -99,9 +99,9 @@ export const createAppointment = async (req, res, next) => {
               <p style="margin: 5px 0;"><strong>Type:</strong> ${appointment.bookingType === 'salon' ? 'Studio Visit' : 'Home Service'}</p>
               <p style="margin: 5px 0;"><strong>Status:</strong> <span style="color: #d97706; font-weight: bold;">Pending Confirmation</span></p>
             </div>
-            <p>Our salon team in Rajkot will confirm your slot shortly via WhatsApp or call.</p>
-            <p>Location: 102 Pride Corporate, Kalavad Road, Rajkot.</p>
-            <p>Contact: +91 95123 48787</p>
+            <p>Our salon team in Kurukshetra will confirm your slot shortly via WhatsApp or call.</p>
+            <p>Location: SCO-55, 56, Kessal Mall, Sector 17, Kurukshetra, Haryana 136118.</p>
+            <p>Contact: +91 98123 62083</p>
           </div>
         `,
       }).catch((err) => console.warn('Customer email notice error:', err.message));
@@ -254,7 +254,7 @@ export const updateAppointmentStatus = async (req, res, next) => {
               <p style="margin: 5px 0;"><strong>Time:</strong> ${appointment.startTime} - ${appointment.endTime}</p>
               ${appointment.adminNotes ? `<p style="margin: 5px 0;"><strong>Note:</strong> ${appointment.adminNotes}</p>` : ''}
             </div>
-            <p>For any queries, please call us at +91 95123 48787.</p>
+            <p>For any queries, please call us at +91 98123 62083.</p>
           </div>
         `,
       }).catch((e) => console.warn('Status email error:', e.message));

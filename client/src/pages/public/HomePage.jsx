@@ -51,8 +51,8 @@ export const HomePage = () => {
   return (
     <div>
       <SEOHead
-        title="La Posh Nails Studio & Academy | Rajkot - Where Beauty Meets Artistry"
-        description="Discover beautiful nail art, stunning hairstyles, professional makeup, and certified nail art education at La Posh on Kalavad Road, Rajkot. Book your appointment online."
+        title="Khan Hair Xpenso - The Beauty Salon & Training | Kurukshetra"
+        description="Discover haircuts, hair spa, luxury nail art, bridal makeup, and certified beauty training at Khan Hair Xpenso in Sector 17, Kurukshetra, Haryana. Book online."
       />
 
       {/* 1. HERO SECTION */}
@@ -65,9 +65,9 @@ export const HomePage = () => {
               <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/90 border border-laposh-border shadow-xs text-xs">
                 <div className="flex items-center text-amber-500">
                   <Star className="w-3.5 h-3.5 fill-amber-500" />
-                  <span className="ml-1 font-bold text-laposh-text">4.3 / 5</span>
+                  <span className="ml-1 font-bold text-laposh-text">3.9 / 5</span>
                 </div>
-                <span className="text-laposh-muted">• 189 Verified Google Reviews</span>
+                <span className="text-laposh-muted">• 301 Verified Google Reviews</span>
               </div>
 
               <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-laposh-text leading-[1.15]">
@@ -76,7 +76,7 @@ export const HomePage = () => {
               </h1>
 
               <p className="text-sm sm:text-base text-laposh-muted leading-relaxed max-w-xl mx-auto lg:mx-0">
-                Discover beautiful nail art, stunning hairstyles, professional makeup, and nail art education at La Posh in Rajkot. Indulge in bespoke luxury, tailored exclusively for you.
+                Discover bespoke haircuts, refreshing hair spa, beautiful nail art, and bridal makeup transformations at Khan Hair Xpenso in Kurukshetra. Indulge in personal care tailored exclusively for you.
               </p>
 
               {/* Action Buttons */}
@@ -112,8 +112,8 @@ export const HomePage = () => {
                   <p className="text-[11px] text-laposh-muted">Hygienic & Sterilized</p>
                 </div>
                 <div>
-                  <p className="font-serif text-2xl font-bold text-laposh-text">189+</p>
-                  <p className="text-[11px] text-laposh-muted">Happy Clients in Rajkot</p>
+                  <p className="font-serif text-2xl font-bold text-laposh-text">301+</p>
+                  <p className="text-[11px] text-laposh-muted">Happy Clients in Kurukshetra</p>
                 </div>
                 <div>
                   <p className="font-serif text-2xl font-bold text-laposh-text">Govt.</p>
@@ -128,7 +128,7 @@ export const HomePage = () => {
                 <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
                   <img
                     src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=1200&q=80"
-                    alt="La Posh Nails Studio Rajkot"
+                    alt="Khan Hair Xpenso Kurukshetra"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -139,8 +139,8 @@ export const HomePage = () => {
                     <Sparkles className="w-5 h-5" />
                   </div>
                   <div>
-                    <p className="text-xs font-bold text-laposh-text">Rajkot’s Premier Nail Studio</p>
-                    <p className="text-[10px] text-laposh-muted">Kalavad Road • Royal Park</p>
+                    <p className="text-xs font-bold text-laposh-text">Kurukshetra’s Premier Salon</p>
+                    <p className="text-[10px] text-laposh-muted">Kessal Mall • Sector 17</p>
                   </div>
                 </div>
               </div>
@@ -189,7 +189,7 @@ export const HomePage = () => {
               Signature Nail Art Portfolio
             </h2>
             <p className="text-xs text-laposh-muted mt-2">
-              Explore French tips, mirror chrome, bridal nails, and festive acrylic extensions created at our Rajkot salon.
+              Explore French tips, mirror chrome, bridal nails, and festive acrylic extensions created at our Kurukshetra salon.
             </p>
           </div>
 
@@ -236,10 +236,10 @@ export const HomePage = () => {
                   Academy Admissions Open
                 </span>
                 <h2 className="font-serif text-3xl sm:text-4xl font-bold text-laposh-text leading-tight">
-                  “Turn Your Passion for Nail Art Into a Profession.”
+                  “Turn Your Passion for Beauty & Hair Into a Profession.”
                 </h2>
                 <p className="text-xs sm:text-sm text-laposh-muted leading-relaxed">
-                  Join Rajkot’s most comprehensive nail artistry and beauty curriculum. Learn acrylic sculpted extensions, gel chemistry, 3D designs, salon hygiene, and client consulting under expert mentorship.
+                  Join Kurukshetra’s most comprehensive beauty, nail artistry, and salon curriculum. Learn acrylic sculpted extensions, hair styling, bridal makeup, and salon hygiene under expert mentorship.
                 </p>
 
                 <div className="grid grid-cols-2 gap-3 pt-2 text-xs">
@@ -271,8 +271,8 @@ export const HomePage = () => {
                   </Link>
 
                   <a
-                    href={`https://wa.me/919512348787?text=${encodeURIComponent(
-                      'Hello La Posh Academy, I want to enquire about nail art courses and upcoming batches.'
+                    href={`https://wa.me/919812362083?text=${encodeURIComponent(
+                      'Hello Khan Hair Xpenso Academy, I want to enquire about beauty courses and upcoming batches.'
                     )}`}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -288,7 +288,7 @@ export const HomePage = () => {
                 <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl border-2 border-white">
                   <img
                     src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=80"
-                    alt="La Posh Nails Academy Training"
+                    alt="Khan Hair Xpenso Training"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -306,7 +306,7 @@ export const HomePage = () => {
               Real Client Experiences
             </span>
             <h2 className="font-serif text-3xl sm:text-4xl font-bold text-laposh-text mt-1">
-              Loved by Clients in Rajkot
+              Loved by Clients in Kurukshetra
             </h2>
             <div className="flex items-center justify-center gap-2 mt-3">
               <div className="flex text-amber-500">
@@ -314,8 +314,8 @@ export const HomePage = () => {
                   <Star key={i} className="w-4 h-4 fill-amber-500" />
                 ))}
               </div>
-              <span className="text-xs font-bold text-laposh-text">4.3 / 5 Rating</span>
-              <span className="text-xs text-laposh-muted">• 189 Reviews on Google</span>
+              <span className="text-xs font-bold text-laposh-text">3.9 / 5 Rating</span>
+              <span className="text-xs text-laposh-muted">• 301 Reviews on Google</span>
             </div>
           </div>
 
@@ -323,18 +323,18 @@ export const HomePage = () => {
             {[
               {
                 name: 'Kavita Dave',
-                review: 'Got my bridal nail extensions done here for my wedding. The precision, shaping, and Swarovski placement lasted over 4 weeks without any chipping! Best nail studio in Rajkot on Kalavad Road.',
-                service: 'Bridal Nail Extensions',
+                review: 'Got my bridal styling and nail extensions done here for my wedding. The precision, hair spa, and Swarovski placement lasted over 4 weeks without any chipping! Best beauty salon in Kurukshetra at Kessal Mall.',
+                service: 'Bridal Beauty & Nails',
               },
               {
                 name: 'Pooja Jadeja',
-                review: 'I completed the professional nail art course at La Posh Academy. The mentor taught step-by-step techniques for acrylic, gel, and 3D floral art. Now I have my own thriving client base!',
+                review: 'I completed the professional beauty and salon course at Khan Hair Xpenso Academy. The mentors taught step-by-step techniques for hair treatments, makeup, and nail art. Now I have my own thriving client base!',
                 service: 'Academy Student',
               },
               {
                 name: 'Neha Joshi',
-                review: 'Super clean, luxurious atmosphere. They take sanitation seriously and sterilized every single tool right before my manicure. Highly recommended for party makeup and custom nails.',
-                service: 'Party Makeup & Chrome Nails',
+                review: 'Super clean, luxurious atmosphere. They take sanitation seriously and sterilized every single tool right before my session. Highly recommended for haircuts, hair spa, and custom nails.',
+                service: 'Haircuts & Party Styling',
               },
             ].map((rev, idx) => (
               <div
@@ -380,22 +380,22 @@ export const HomePage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <span className="text-xs font-semibold uppercase tracking-widest text-laposh-gold">
-                Find Us in Rajkot
+                Find Us in Kurukshetra
               </span>
               <h2 className="font-serif text-3xl sm:text-4xl font-bold text-laposh-text">
-                Conveniently Located on Kalavad Road
+                Conveniently Located in Kessal Mall, Sector 17
               </h2>
               <p className="text-xs sm:text-sm text-laposh-muted leading-relaxed">
-                Visit our luxurious salon and academy in the heart of Rajkot. Located at Pride Corporate opposite Krishna Medical with convenient parking and accessibility.
+                Visit our beauty salon and academy in the heart of Kurukshetra. Located in Kessal Mall (in Nike Store) with convenient parking and accessibility.
               </p>
 
               <div className="space-y-3.5 text-xs">
                 <div className="flex items-start gap-3">
                   <MapPin className="w-4 h-4 text-laposh-gold shrink-0 mt-0.5" />
                   <div>
-                    <p className="font-bold text-laposh-text">Studio Address:</p>
+                    <p className="font-bold text-laposh-text">Salon Address:</p>
                     <p className="text-laposh-muted">
-                      102 Pride Corporate, Royal Park Main Road, Kalavad Road, Opposite Krishna Medical, Rajkot, Gujarat 360005
+                      SCO-55, 56, Kessal Mall, Sector 17, Kurukshetra, Haryana 136118 (Located in: Nike Store)
                     </p>
                   </div>
                 </div>
@@ -404,7 +404,7 @@ export const HomePage = () => {
                   <Clock className="w-4 h-4 text-laposh-gold shrink-0 mt-0.5" />
                   <div>
                     <p className="font-bold text-laposh-text">Business Hours:</p>
-                    <p className="text-laposh-muted">Monday – Sunday: 10:00 AM – 8:00 PM</p>
+                    <p className="text-laposh-muted">Monday – Sunday: 10:00 AM – 9:30 PM</p>
                   </div>
                 </div>
 
@@ -413,10 +413,10 @@ export const HomePage = () => {
                   <div>
                     <p className="font-bold text-laposh-text">Direct Inquiries & Bookings:</p>
                     <a
-                      href="tel:+919512348787"
+                      href="tel:+919812362083"
                       className="text-laposh-gold font-bold hover:underline"
                     >
-                      +91 95123 48787
+                      +91 98123 62083
                     </a>
                   </div>
                 </div>
@@ -430,7 +430,7 @@ export const HomePage = () => {
                   Book Appointment
                 </Link>
                 <a
-                  href="https://maps.google.com/?q=102+Pride+Corporate+Kalavad+Road+Rajkot"
+                  href="https://maps.google.com/?q=Khan+Hair+Xpenso+Kurukshetra"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-6 py-3 rounded-full border border-laposh-border hover:bg-laposh-warm text-laposh-text text-xs font-semibold tracking-wider uppercase transition-colors"
@@ -443,8 +443,8 @@ export const HomePage = () => {
             {/* Embedded Google Maps */}
             <div className="h-80 sm:h-96 rounded-3xl overflow-hidden border border-laposh-border shadow-luxury">
               <iframe
-                title="La Posh Nails Studio Location Map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.874533036814!2d70.77190001496738!3d22.285800085331078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959ca780f2d123b%3A0x8e87496d0be220f!2sPride%20Corporate%2C%20Kalavad%20Rd%2C%20Rajkot%2C%20Gujarat%20360005!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin"
+                title="Khan Hair Xpenso Location Map"
+                src="https://maps.google.com/maps?q=SCO-55,+56,+Kessal+Mall,+Sector+17,+Kurukshetra,+Haryana+136118&t=&z=15&ie=UTF8&iwloc=&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
