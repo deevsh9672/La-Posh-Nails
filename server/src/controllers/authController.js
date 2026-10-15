@@ -11,11 +11,12 @@ const generateToken = (id) => {
 const sendTokenResponse = (admin, statusCode, res) => {
   const token = generateToken(admin._id);
 
+  const isProduction = process.env.NODE_ENV === 'production';
   const cookieOptions = {
     httpOnly: true,
     expires: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000), // 7 days
-    secure: process.env.NODE_ENV === 'production',
-    sameSite: process.env.NODE_ENV === 'production' ? 'strict' : 'lax',
+    secure: isProduction,
+    sameSite: isProduction ? 'none' : 'lax',
   };
 
   res.cookie('laposh_token', token, cookieOptions);

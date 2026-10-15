@@ -26,21 +26,28 @@ app.use(
 );
 
 // CORS configuration with explicit allowed-origin list
+const clientUrls = (process.env.CLIENT_URL || '')
+  .split(',')
+  .map((url) => url.trim().replace(/\/$/, ''))
+  .filter(Boolean);
+
 const allowedOrigins = [
-  process.env.CLIENT_URL,
+  ...clientUrls,
+  'https://la-posh-nails.vercel.app',
   'http://localhost:5173',
   'http://127.0.0.1:5173',
   'http://localhost:3000',
+  'http://localhost:5001',
 ].filter(Boolean);
 
 app.use(
   cors({
     origin: (origin, callback) => {
       // Allow requests with no origin (like mobile apps, curl, Postman)
-      if (!origin || allowedOrigins.includes(origin)) {
+      if (!origin || allowedOrigins.includes(origin) || origin.endsWith('.vercel.app')) {
         callback(null, true);
       } else {
-        callback(null, true); // Permissive in development, strict check can be enforced in prod
+        callback(null, true);
       }
     },
     credentials: true,
@@ -54,8 +61,45 @@ app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 app.use(cookieParser());
 
+import { connectDB } from './config/db.js';
+
 // Static uploads folder for local fallback
 app.use('/uploads', express.static(path.resolve('uploads')));
+
+// Ensure Database connection for serverless / Vercel execution
+app.use(async (req, res, next) => {
+  // Allow health check without waiting for DB
+  if (req.path === '/api/health' || req.path === '/') {
+    return next();
+  }
+  try {
+    await connectDB();
+    next();
+  } catch (err) {
+    console.error('[Database Connection Middleware Error]:', err.message);
+    res.status(500).json({
+      success: false,
+      message: 'Database connection failed. Please ensure MONGODB_URI environment variable is configured in Vercel.',
+      error: err.message,
+    });
+  }
+});
+
+// Root information endpoint
+app.get('/', (req, res) => {
+  res.status(200).json({
+    status: 'online',
+    service: 'La Posh Nails Studio & Academy API',
+    location: 'Rajkot, Gujarat',
+    endpoints: {
+      health: '/api/health',
+      services: '/api/services',
+      appointments: '/api/appointments',
+      gallery: '/api/gallery',
+      settings: '/api/settings',
+    },
+  });
+});
 
 // Health check endpoint
 app.get('/api/health', (req, res) => {
