@@ -1,7 +1,17 @@
 import axios from 'axios';
 
+const getApiBaseUrl = () => {
+  if (import.meta.env.VITE_API_BASE_URL) {
+    return import.meta.env.VITE_API_BASE_URL;
+  }
+  if (typeof window !== 'undefined' && window.location.hostname === 'localhost') {
+    return '/api';
+  }
+  return 'https://la-posh-nails.onrender.com/api';
+};
+
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || '/api',
+  baseURL: getApiBaseUrl(),
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json',
@@ -59,7 +69,7 @@ export const appointmentsAPI = {
   getMetrics: () => api.get('/appointments/metrics'),
   getExportUrl: (params) => {
     const query = new URLSearchParams({ ...params, export: 'csv' }).toString();
-    const base = import.meta.env.VITE_API_BASE_URL || '/api';
+    const base = getApiBaseUrl();
     return `${base}/appointments?${query}`;
   },
 };
@@ -81,7 +91,7 @@ export const enquiriesAPI = {
   delete: (id) => api.delete(`/course-enquiries/${id}`),
   getExportUrl: (params) => {
     const query = new URLSearchParams({ ...params, export: 'csv' }).toString();
-    const base = import.meta.env.VITE_API_BASE_URL || '/api';
+    const base = getApiBaseUrl();
     return `${base}/course-enquiries?${query}`;
   },
 };
